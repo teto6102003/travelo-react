@@ -1,0 +1,136 @@
+
+.footer {
+    background-color: rgba(4, 14, 39, 255);
+    color: white;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .footer a,
+  p {
+    color: #aab1b7;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /* Links hover effect */
+  
+  a:hover {
+    color: red;
+  }
+  
+  a {
+    color: rgb(5, 6, 7);
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Flexbox Layout for the Elements */
+  
+  .all-element {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: nowrap;
+    padding: 5vh;
+    text-align: start;
+  }
+  
+  /* Logo and Icons (35% Width) */
+  .logo-and-icons {
+    flex: 0 0 27%;
+    
+  }
+  
+  /* Companies Section (15% Width) */
+  .companies {
+    flex: 0 0 17%;
+  }
+  
+  /* Popular Destination Section (25% Width) */
+  .Popular-destination,
+  .insta {
+    flex: 0 0 28%;
+  }
+  
+  /* Instagram Section (25% Width) */
+  .insta-images {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 5px;
+    justify-content: left;
+  }
+  
+  /* Social Icons Layout - One Line */
+  .social-icons {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding-top: 40px;
+  }
+  .social-icons li {
+    list-style: none;
+  }
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .component-padding-top {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+  
+  .copy-right {
+    text-align: center;
+    padding: 1vh;
+    color: #aab1b7;
+  }
+  .copy-right a {
+    color: red;
+  }
+  
+  @media (max-width: 991px) {
+    .all-element {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    /* First two elements: Logo and Companies (50% width each) */
+    .logo-and-icons,
+    .companies {
+      flex: 0 0 48%;
+      margin-bottom: 20px;
+    }
+  
+    /* Last two elements: Popular Destination and Instagram (50% width each) */
+    .Popular-destination,
+    .insta {
+      flex: 0 0 48%;
+    }
+  }
+  
+  /* Media Query for phones - 1 element per row */
+  @media (max-width: 768px) {
+    .trip-item {
+      flex: 1 1 100%;
+    }
+    .all-element {
+      flex-wrap: wrap;
+      padding-left: 50px;
+    }
+  
+    /* Each element takes 100% width */
+    .logo-and-icons,
+    .companies,
+    .Popular-destination,
+    .insta {
+      flex: 0 0 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

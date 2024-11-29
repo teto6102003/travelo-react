@@ -1,0 +1,310 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "city": "PAIRS",
+      "country": "France",
+      "dateOfTravel": "15-10-2024",
+      "travelMethod": "By air",
+      "price": 1500,
+      "hotelDetails": {
+        "hotelName": "Hotel de Paris",
+        "rating": 5,
+        "amenities": [
+          "Free WiFi",
+          "Spa",
+          "Breakfast included"
+        ]
+      },
+      "photoURL": "/images/paris.jpg"
+    },
+    {
+      "id": "2",
+      "city": "TOKYO",
+      "country": "Japan",
+      "dateOfTravel": "15-10-2024",
+      "travelMethod": "By ship",
+      "price": 2000,
+      "hotelDetails": {
+        "hotelName": "Tokyo Grand Hotel",
+        "rating": 4,
+        "amenities": [
+          "Free WiFi",
+          "City View",
+          "24-hour Gym"
+        ]
+      },
+      "photoURL": "/images/Tokyo.jpg"
+    },
+    {
+      "id": "3",
+      "city": "SYDNEY",
+      "country": "Australia",
+      "dateOfTravel": "10-12-2024",
+      "travelMethod": "By air",
+      "price": 1800,
+      "hotelDetails": {
+        "hotelName": "Sydney Harbour Hotel",
+        "rating": 4,
+        "amenities": [
+          "Pool",
+          "Harbour View",
+          "Bar"
+        ]
+      },
+      "photoURL": "/images/Sydney.jpg"
+    },
+    {
+      "id": "4",
+      "city": "NEW YORK",
+      "country": "USA",
+      "dateOfTravel": "28-09-2024",
+      "travelMethod": "By air",
+      "price": 1600,
+      "hotelDetails": {
+        "hotelName": "Times Square Hotel",
+        "rating": 5,
+        "amenities": [
+          "Rooftop Bar",
+          "Free Breakfast",
+          "Gym"
+        ]
+      },
+      "photoURL": "/images/New_York_City.jpg"
+    },
+    {
+      "id": "5",
+      "city": "CAIRO",
+      "country": "Egypt",
+      "dateOfTravel": "20-10-2024",
+      "travelMethod": "By air",
+      "price": 1200,
+      "hotelDetails": {
+        "hotelName": "Pyramids View Inn",
+        "rating": 3,
+        "amenities": [
+          "Free Parking",
+          "Pyramids View",
+          "Guided Tours"
+        ]
+      },
+      "photoURL": "/images/Cairo.jpg"
+    },
+    {
+      "id": "6",
+      "city": "CAPE TOWN",
+      "country": "South Africa",
+      "dateOfTravel": "15-11-2024",
+      "travelMethod": "By ship",
+      "price": 1700,
+      "hotelDetails": {
+        "hotelName": "Cape Grace Hotel",
+        "rating": 5,
+        "amenities": [
+          "Free WiFi",
+          "Ocean View",
+          "Airport Shuttle"
+        ]
+      },
+      "photoURL": "/images/Cape_Town.jpg"
+    },
+    {
+      "id": "7",
+      "city": "ROME",
+      "country": "Italy",
+      "dateOfTravel": "05-10-2024",
+      "travelMethod": "By ship",
+      "price": 1300,
+      "hotelDetails": {
+        "hotelName": "Hotel Roma",
+        "rating": 4,
+        "amenities": [
+          "Free Breakfast",
+          "Central Location",
+          "Spa"
+        ]
+      },
+      "photoURL": "/images/Rome.jpg"
+    },
+    {
+      "id": "8",
+      "city": "LONDON",
+      "country": "UK",
+      "dateOfTravel": "22-12-2024",
+      "travelMethod": "By ship",
+      "price": 1400,
+      "hotelDetails": {
+        "hotelName": "The Londoner",
+        "rating": 5,
+        "amenities": [
+          "Free WiFi",
+          "Rooftop Pool",
+          "Gym"
+        ]
+      },
+      "photoURL": "/images/London.jpg"
+    },
+    {
+      "id": "9",
+      "city": "BANGKOK",
+      "country": "Thailand",
+      "dateOfTravel": "01-11-2024",
+      "travelMethod": "By train",
+      "price": 1100,
+      "hotelDetails": {
+        "hotelName": "Bangkok Palace Hotel",
+        "rating": 4,
+        "amenities": [
+          "Free WiFi",
+          "Pool",
+          "Close to Shopping"
+        ]
+      },
+      "photoURL": "/images/Bangkok.jpg"
+    },
+    {
+      "id": "10",
+      "city": "RIO",
+      "country": "Brazil",
+      "dateOfTravel": "08-12-2024",
+      "travelMethod": "By train",
+      "price": 1900,
+      "hotelDetails": {
+        "hotelName": "Copacabana Palace",
+        "rating": 5,
+        "amenities": [
+          "Beach Access",
+          "Free Breakfast",
+          "Spa"
+        ]
+      },
+      "photoURL": "/images/Rio_de_Janeiro.jpg"
+    }
+  ],
+  "userData": [
+    {
+      "fName": "Ali",
+      "lName": "Omr",
+      "Phone": "01001001010",
+      "email": "ali@gmail.com",
+      "password": "1234",
+      "id": "e115"
+    },
+    {
+      "fName": "Aaaali",
+      "lName": "Omr",
+      "Phone": "01001001010",
+      "email": "aaaali@gmail.com",
+      "password": "1234",
+      "id": "793b"
+    },
+    {
+      "id": "a9d2",
+      "fName": "a",
+      "lName": "a",
+      "email": "a@a.a",
+      "phone": "42341",
+      "password": "1"
+    },
+    {
+      "id": "5404",
+      "fName": "a",
+      "lName": "a",
+      "email": "2@2.2",
+      "phone": "01",
+      "password": "2"
+    }
+  ],
+  "userTickets": [
+    {
+      "id": "1",
+      "PassangerName": "Mr. Yahia Hassan",
+      "TicketClass": "Business Class",
+      "From": "Cairo",
+      "To": "Paris",
+      "Time": "15/10/2024 15:30PM",
+      "GateNo": 4,
+      "Barcode": "https://www.freepnglogos.com/uploads/barcode-png/barcode-laser-code-vector-graphic-pixabay-3.png"
+    },
+    {
+      "id": "2",
+      "PassangerName": "Mr. Yahia Hassan",
+      "TicketClass": "Business Class",
+      "From": "Cairo",
+      "To": "Paris",
+      "Time": "15/10/2024 15:30PM",
+      "GateNo": 4,
+      "Barcode": "https://www.freepnglogos.com/uploads/barcode-png/barcode-laser-code-vector-graphic-pixabay-3.png"
+    },
+    {
+      "id": "3",
+      "PassangerName": "Mr. Yahia Hassan",
+      "TicketClass": "Business Class",
+      "From": "Cairo",
+      "To": "Paris",
+      "Time": "15/10/2024 15:30PM",
+      "GateNo": 4,
+      "Barcode": "https://www.freepnglogos.com/uploads/barcode-png/barcode-laser-code-vector-graphic-pixabay-3.png"
+    },
+    {
+      "id": "4",
+      "PassangerName": "Mr. Yahia Hassan",
+      "TicketClass": "Business Class",
+      "From": "Cairo",
+      "To": "Paris",
+      "Time": "15/10/2024 15:30PM",
+      "GateNo": 4,
+      "Barcode": "https://www.freepnglogos.com/uploads/barcode-png/barcode-laser-code-vector-graphic-pixabay-3.png"
+    },
+    {
+      "id": "5",
+      "PassangerName": "Mr. Yahia Hassan",
+      "TicketClass": "Business Class",
+      "From": "Cairo",
+      "To": "Paris",
+      "Time": "15/10/2024 15:30PM",
+      "GateNo": 4,
+      "Barcode": "https://www.freepnglogos.com/uploads/barcode-png/barcode-laser-code-vector-graphic-pixabay-3.png"
+    },
+    {
+      "id": "6",
+      "PassangerName": "Mr. Yahia Hassan",
+      "TicketClass": "Business Class",
+      "From": "Cairo",
+      "To": "Paris",
+      "Time": "15/10/2024 15:30PM",
+      "GateNo": 4,
+      "Barcode": "https://www.freepnglogos.com/uploads/barcode-png/barcode-laser-code-vector-graphic-pixabay-3.png"
+    },
+    {
+      "id": "7",
+      "PassangerName": "Mr. Yahia Hassan",
+      "TicketClass": "Business Class",
+      "From": "Cairo",
+      "To": "Paris",
+      "Time": "15/10/2024 15:30PM",
+      "GateNo": 4,
+      "Barcode": "https://www.freepnglogos.com/uploads/barcode-png/barcode-laser-code-vector-graphic-pixabay-3.png"
+    }
+  ],
+  "Testimonial": [
+    {
+      "id": "1",
+      "imgSrc": "./images/author2.png",
+      "name": "John Doe",
+      "feedback": "The service was excellent! I highly recommend this company."
+    },
+    {
+      "id": "2",
+      "imgSrc": "./images/author1.png",
+      "name": "Jane Smith",
+      "feedback": "The team went above and beyond. I'm extremely satisfied with the results."
+    },
+    {
+      "id": "3",
+      "imgSrc": "./images/author.png",
+      "name": "Michael Brown",
+      "feedback": "Great experience from start to finish. Fantastic support and communication."
+    }
+  ]
+}

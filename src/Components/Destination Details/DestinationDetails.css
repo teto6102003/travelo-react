@@ -1,0 +1,168 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.DestinationDetails-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+.DestinationDetails-container .container{
+
+    flex-direction: column;
+    display: flex;
+}
+
+.section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section p {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column; 
+}
+
+.form-row .form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.newsletter {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.newsletter input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.newsletter button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.places {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.places h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.places .place {
+    display: inline-block;
+    width: 28%;
+    margin: 20px 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    background-color: floralwhite;
+}
+
+.places .place img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.places .place .details {
+    padding: 20px;
+}
+
+.places .place .details .price {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.places .place .details .duration {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.places .place .details h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.places .place .details p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.places .place .details .reviews {
+    color: #ffc107;
+}
